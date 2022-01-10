@@ -1,2 +1,2 @@
-# rollin-api
-A API project for Rollin
+# Rollin Api
+Rest API project for [Rolling](https://github.com/aleciosouza/rollin) using Go
