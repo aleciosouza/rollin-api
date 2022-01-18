@@ -10,7 +10,7 @@ import (
 )
 
 func GetAllEvents(w http.ResponseWriter, r *http.Request) {
-	var events []models.Events
+	var events []models.Event
 	database.DB.Find(&events)
 	json.NewEncoder(w).Encode(events)
 }

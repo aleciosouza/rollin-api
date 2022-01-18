@@ -7,5 +7,3 @@ type Event struct {
 	Participants []User `json:"participants"`
 	Items        []Item
 }
-
-var Events []Event

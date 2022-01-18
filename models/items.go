@@ -6,5 +6,3 @@ type Item struct {
 	Price   float64 `json:"price"`
 	Creator User    `json: "creator"`
 }
-
-var Items []Item
